@@ -4,11 +4,15 @@
     align-items: center;
     padding: 2%;
 }
-
+.my-logo {
+    display: flex;
+    align-items: center;
+}
 .my-navigation {
     margin-left: 40px;
     display: flex;
-    width: 40%
+    width: 40%;
+    align-items: center;
 }
 
 ul li {
@@ -21,6 +25,7 @@ ul li {
     width: 40%;
     height: 50px;
     justify-content: flex-end;
+    align-items: center;
 }
 
 a {
