@@ -1,21 +1,30 @@
 import React from 'react'
 import Logo from '../images/logo.svg'
+import '../styles/header.css'
 
 const Header = () => {
   return (
     <header>
         <div className="my-header">
+        <div className="my-logo">
         <img src={Logo} alt="" />
-        <ul>
+        </div>
+      <div className="my-navigation">
+      <nav>
+      <ul>
             <li>Features</li>
             <li>Company</li>
             <li>Careers</li>
             <li>About</li>
             
         </ul>
-        <a href="">Login</a>
-        </div>
+      </nav>
+      </div>
+        <div className="login-register">
+        <a href="#login">Login</a>
         <button className='register'>Register</button>
+        </div>
+        </div>
         
     </header>
   )
