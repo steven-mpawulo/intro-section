@@ -2,6 +2,7 @@
     display: flex;
     height: 100%;
     width: 100%;
+    margin-left: 15%;
 }
 
 .first-container {
@@ -18,4 +19,9 @@
 object-fit: cover;
 max-width: 100%;
 max-width: 50%;
+}
+
+.first-text {
+    font-weight: bold;
+    font-size: 52px;
 }
