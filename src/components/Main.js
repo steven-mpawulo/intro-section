@@ -4,11 +4,12 @@ import Audiophile from '../images/client-audiophile.svg'
 import Meet from '../images/client-meet.svg'
 import Maker from '../images/client-maker.svg'
 import Hero from '../images/image-hero-desktop.png'
+import '../styles/main.css'
 
 const Main = () => {
   return (
     <main>
-        <div className="main-container">
+        <div className="major-container">
             <div className="first-container">
                 <p>Make</p>
                 <p>Remote work</p>
@@ -23,7 +24,7 @@ const Main = () => {
                 </div>
             </div>
             <div className="second-container">
-                <img src={Hero} alt="" />
+                <img src={Hero} alt="Hero" className='hero'/>
             </div>
         </div>
     </main>
