@@ -20,7 +20,12 @@ const Header = () => {
 
               </div>
             </li>
-            <li>Company</li>
+            <li>
+              <div className="company-container">
+                <p>Company</p>
+                <img src={ArrowDown} alt="arrow down" className='arrow-down' />
+              </div>
+            </li>
             <li>Careers</li>
             <li>About</li>
             
