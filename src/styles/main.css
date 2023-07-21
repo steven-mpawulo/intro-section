@@ -27,11 +27,14 @@ max-width: 50%;
 }
 
 .second-text {
-    color:hsl(0, 0%, 41%)
+    color:hsl(0, 0%, 41%);
+    margin-bottom: 0;
 }
 
 .third-text {
     color: hsl(0, 0%, 41%);
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 .inner-text {
