@@ -12,8 +12,8 @@ const Main = () => {
         <div className="major-container">
             <div className="first-container">
                 <p className='first-text'>Make <br />Remote work </p>
-                <p>Get your team in sync, no matter your location</p>
-                <p>Streamline processes, create team rituals, and watch productivity soar.</p>
+                <p className='second-text'>Get your team in sync, no matter your location</p>
+                <p className='third-text'>Streamline processes, create team rituals,and watch productivity soar.</p>
                 <button className='learn-more-button'>Learn more</button>
                 <div className="my-images">
                     <img src={Databiz} alt="databiz" />
