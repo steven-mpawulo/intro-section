@@ -7,12 +7,12 @@
 
 .first-container {
     height: 100%;
-    width: 50%;
+    width: 40%;
 }
 
 .second-container {
     height: 100%;
-    width: 50%;
+    width: 60%;
 }
 
 .hero {
@@ -46,4 +46,11 @@ max-width: 50%;
     color: white;
     width: 20%;
     height: 50px;
+}
+
+.my-images {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
 }
