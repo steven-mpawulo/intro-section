@@ -40,3 +40,13 @@ button {
 
     background-color: white;
 }
+
+.features-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.arrow-down {
+    height: 10%;
+    margin-left: 6px;
+}

@@ -14,9 +14,9 @@ const Header = () => {
       <nav>
       <ul>
             <li>
-              <div className="features">
+              <div className="features-container">
                 <p>Features</p>
-                <img src={ArrowDown} alt="" />
+                <img src={ArrowDown} alt="Arrow down" className='arrow-down'/>
 
               </div>
             </li>
