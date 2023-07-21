@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../images/logo.svg'
 import '../styles/header.css'
+import ArrowDown from '../images/icon-arrow-down.svg'
 
 const Header = () => {
   return (
@@ -12,7 +13,13 @@ const Header = () => {
       <div className="my-navigation">
       <nav>
       <ul>
-            <li>Features</li>
+            <li>
+              <div className="features">
+                <p>Features</p>
+                <img src={ArrowDown} alt="" />
+
+              </div>
+            </li>
             <li>Company</li>
             <li>Careers</li>
             <li>About</li>
