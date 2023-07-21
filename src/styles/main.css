@@ -25,3 +25,7 @@ max-width: 50%;
     font-weight: bold;
     font-size: 52px;
 }
+
+.second-text {
+    color:hsl(0, 0%, 41%)
+}
