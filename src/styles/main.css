@@ -40,3 +40,10 @@ max-width: 50%;
 .inner-text {
     display: block;
 }
+
+.learn-more-button {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    width: 20%;
+    height: 50px;
+}
