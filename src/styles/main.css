@@ -33,3 +33,7 @@ max-width: 50%;
 .third-text {
     color: hsl(0, 0%, 41%);
 }
+
+.inner-text {
+    display: block;
+}
